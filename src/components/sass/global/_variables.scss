@@ -1,0 +1,22 @@
+//FUENTES
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
+$codePro: 'Source Code Pro', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
+$roboto:  'Roboto', sans-serif;
+
+//COLORS GLOBALS
+$white: #ffffff;
+$red: #fd4a57;
+
+//THEME DARK
+$navDark: #12131f;
+$themeDark: #1f2235;
+$txt-logo: #fd4a57;
+
+//THEME LIGHT
+$themeLight: #ffffff;
+
+//MEDIA QUERIES
+$movil: 767px;
+$tabletH: 768px;
+$tabletV: 1024px;

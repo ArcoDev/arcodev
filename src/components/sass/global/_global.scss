@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+//Theme Light
+body {
+    transition: all 1s ease-out;
+    font-family: $roboto;
+    background: $themeDark;
+    scroll-behavior: smooth;
+
+    //NAVBAR
+    .box-logo {
+        h2 {
+            color: $txt-logo;
+        }
+    }
+
+    .items {
+        a {
+            color: $white;
+        }
+    }
+
+    .switch {
+        .lbl {
+            border: 2px solid $red;
+            box-shadow: 1px 0px 4px 1px $red;
+
+            &::after {
+                background: $red;
+            }
+        }
+    }
+
+    .menu {
+        span {
+            background: $red;
+        }
+    }
+
+    //HEADER
+    .im-info {
+        h2 {
+            color: $white;
+        }
+
+        p {
+            color: $white
+        }
+
+        a {
+            border: 2px solid $red;
+            color: $red;
+        }
+    }
+}
+
+body.dark-theme {
+    background: $themeDark;
+    transition: all 1s ease-out;
+    font-family: $roboto;
+    background: $themeDark;
+
+    //NAVBAR
+    .box-logo {
+        h2 {
+            color: $txt-logo;
+        }
+    }
+
+    .items {
+        a {
+            color: $white;
+        }
+    }
+
+    .switch {
+        .lbl {
+            border: 2px solid $red;
+            box-shadow: 1px 0px 4px 1px $red;
+
+            &::after {
+                background: $red;
+            }
+        }
+    }
+
+    .menu {
+        span {
+            background: $red;
+        }
+    }
+
+    //HEADER
+    .im-info {
+        h2 {
+            color: $white;
+        }
+
+        p {
+            color: $white
+        }
+
+        a {
+            border: 2px solid $red;
+            color: $red;
+        }
+    }
+}
+
+.title-section {
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    place-items: center;
+
+    @include movil {
+        margin-top: 4rem;
+    }
+
+    h2 {
+        color: $red;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+//Theme Dark
+/*@media (prefers-color-scheme: dark) {
+    body {
+        background: $themeLight;
+
+        //Navbar
+        .box-logo {
+            h2 {
+                color: $themeDark;
+            }
+        }
+
+        .items {
+            a {
+                color: $themeDark;
+            }
+        }
+
+        .switch {
+            .lbl {
+                border: 2px solid $themeDark;
+                box-shadow: 1px 0px 4px 1px $themeDark;
+
+                &::after {
+                    background: $themeDark;
+                }
+            }
+        }
+
+        .menu {
+            span {
+                background: $themeDark;
+            }
+        }
+
+        //HEADER
+        .im-info {
+            h2 {
+                color: $themeDark;
+            }
+
+            p {
+                color: $themeDark;
+            }
+
+            a {
+                border: 2px solid $themeDark;
+                color: $themeDark;
+            }
+        }
+    }
+}*/
