@@ -22,7 +22,10 @@
         transition: all .5s ease-out;
 
         @include movil {
-            width: 95%;
+            width: 90%;
+        }
+        @include tablet {
+            width: 45%;
         }
 
         &:hover {
@@ -69,6 +72,10 @@
 
                 @include movil {
                     font-size: .8rem;
+                    padding: .3rem 1.5rem;
+                }
+                @include tablet {
+                    padding: .3rem 1rem;
                 }
 
                 &:nth-child(1) {

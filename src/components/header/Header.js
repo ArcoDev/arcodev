@@ -11,7 +11,11 @@ const Header = () => {
           Soy Desarrollador Web
           <span> frontend 💻</span>
         </p>
-        <a className="btn-global" href="CV-ARCO.pdf" download="">
+        <a
+          className="btn-global"
+          href="../../../build/static/media/CV-ARCO.pdf"
+          download=""
+        >
           Descarga mi currículum
         </a>
       </div>

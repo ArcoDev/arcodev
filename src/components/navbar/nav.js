@@ -27,9 +27,21 @@ const Nav = () => {
 
   //cambiar los span del menu hamburguesa
   const transformNav = () => {
-    console.log("Prueba del click");
     const menu = document.getElementById("menu");
     menu.classList.toggle("transform-nav");
+    const items = document.getElementById("items");
+    items.classList.remove("close-nav");
+    const boxItem = document.getElementById("box-item");
+    boxItem.classList.toggle("anima-nav");
+  };
+  //cerrar menu mediante los enlaces
+  const closeNav = () => {
+    const items = document.getElementById("items");
+    items.classList.add("close-nav");
+    const menu = document.getElementById("menu");
+    menu.classList.remove("transform-nav");
+    const boxItem = document.getElementById("box-item");
+    boxItem.classList.remove("anima-nav");
   };
 
   return (
@@ -40,8 +52,8 @@ const Nav = () => {
             <h2>{logo}</h2>
           </a>
         </div>
-        <div className="box-items">
-          <ul className="items">
+        <div id="box-item" className="box-items">
+          <ul id="items" className="items" onClick={closeNav}>
             <li>
               <a href="index.html">Inicio</a>
             </li>

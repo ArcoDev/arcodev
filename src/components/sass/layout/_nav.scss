@@ -8,6 +8,7 @@
 
     @include movil {
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.377);
+        z-index: 100;
     }
 
     @include tablet {
@@ -48,9 +49,23 @@
         justify-content: center;
 
         @include movil {
-            display: none;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 100%;
+            transition: all 1s ease-out;
+            transform: translateY(-150%);
+            &.anima-nav {
+                transform: translateY(0);
+            }
         }
-
+        .close-nav {
+            transition: all 1s ease-out;
+            transform: translateY(-150%);
+        }
+        
         @include tablet {
             display: none;
         }
@@ -60,6 +75,14 @@
             align-items: center;
             gap: 2rem;
             padding-top: .3rem;
+
+            @include movil {
+                flex-direction: column;
+                justify-content: center;
+                background: $navDark;
+                width: 100vw;
+                height: 100vh;
+            }
 
             a {
                 font-size: 1.2rem;
@@ -73,6 +96,9 @@
                     color: $red;
                     //border-bottom: 3px solid $red;
 
+                }
+                @include movil {
+                    font-size: 2rem;
                 }
             }
         }
