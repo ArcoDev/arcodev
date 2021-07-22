@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/arcodev/static/css/main.b6d1451a.chunk.css",
-    "main.js": "/arcodev/static/js/main.358e26d8.chunk.js",
-    "main.js.map": "/arcodev/static/js/main.358e26d8.chunk.js.map",
+    "main.js": "/arcodev/static/js/main.9ed77d95.chunk.js",
+    "main.js.map": "/arcodev/static/js/main.9ed77d95.chunk.js.map",
     "runtime-main.js": "/arcodev/static/js/runtime-main.62dbbed3.js",
     "runtime-main.js.map": "/arcodev/static/js/runtime-main.62dbbed3.js.map",
     "static/js/2.8c099ce2.chunk.js": "/arcodev/static/js/2.8c099ce2.chunk.js",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.62dbbed3.js",
     "static/js/2.8c099ce2.chunk.js",
     "static/css/main.b6d1451a.chunk.css",
-    "static/js/main.358e26d8.chunk.js"
+    "static/js/main.9ed77d95.chunk.js"
   ]
 }
