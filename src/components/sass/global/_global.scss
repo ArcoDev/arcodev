@@ -23,7 +23,17 @@ li {
 a {
     text-decoration: none;
 }
+//SCROLL
+body::-webkit-scrollbar {
+    width: 15px;
+    background: $navDark;
+}
 
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: $navDark;
+    border: 1px solid rgb(77, 76, 76);
+}
 //Theme Light
 body {
     transition: all 1s ease-out;
