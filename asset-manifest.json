@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/arcodev/static/css/main.0fdff3e8.chunk.css",
+    "main.css": "/arcodev/static/css/main.b6d1451a.chunk.css",
     "main.js": "/arcodev/static/js/main.358e26d8.chunk.js",
     "main.js.map": "/arcodev/static/js/main.358e26d8.chunk.js.map",
     "runtime-main.js": "/arcodev/static/js/runtime-main.62dbbed3.js",
@@ -10,7 +10,7 @@
     "static/js/3.7635c9bf.chunk.js": "/arcodev/static/js/3.7635c9bf.chunk.js",
     "static/js/3.7635c9bf.chunk.js.map": "/arcodev/static/js/3.7635c9bf.chunk.js.map",
     "index.html": "/arcodev/index.html",
-    "static/css/main.0fdff3e8.chunk.css.map": "/arcodev/static/css/main.0fdff3e8.chunk.css.map",
+    "static/css/main.b6d1451a.chunk.css.map": "/arcodev/static/css/main.b6d1451a.chunk.css.map",
     "static/js/2.8c099ce2.chunk.js.LICENSE.txt": "/arcodev/static/js/2.8c099ce2.chunk.js.LICENSE.txt",
     "static/media/about.f46f1f19.svg": "/arcodev/static/media/about.f46f1f19.svg",
     "static/media/alchile.a8fd3683.PNG": "/arcodev/static/media/alchile.a8fd3683.PNG",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.62dbbed3.js",
     "static/js/2.8c099ce2.chunk.js",
-    "static/css/main.0fdff3e8.chunk.css",
+    "static/css/main.b6d1451a.chunk.css",
     "static/js/main.358e26d8.chunk.js"
   ]
 }
