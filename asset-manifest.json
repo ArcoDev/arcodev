@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/arcodev/static/css/main.8a311a13.chunk.css",
+    "main.js": "/arcodev/static/js/main.e68411d5.chunk.js",
+    "main.js.map": "/arcodev/static/js/main.e68411d5.chunk.js.map",
+    "runtime-main.js": "/arcodev/static/js/runtime-main.62dbbed3.js",
+    "runtime-main.js.map": "/arcodev/static/js/runtime-main.62dbbed3.js.map",
+    "static/js/2.8c099ce2.chunk.js": "/arcodev/static/js/2.8c099ce2.chunk.js",
+    "static/js/2.8c099ce2.chunk.js.map": "/arcodev/static/js/2.8c099ce2.chunk.js.map",
+    "static/js/3.7635c9bf.chunk.js": "/arcodev/static/js/3.7635c9bf.chunk.js",
+    "static/js/3.7635c9bf.chunk.js.map": "/arcodev/static/js/3.7635c9bf.chunk.js.map",
+    "index.html": "/arcodev/index.html",
+    "static/css/main.8a311a13.chunk.css.map": "/arcodev/static/css/main.8a311a13.chunk.css.map",
+    "static/js/2.8c099ce2.chunk.js.LICENSE.txt": "/arcodev/static/js/2.8c099ce2.chunk.js.LICENSE.txt",
+    "static/media/about.f46f1f19.svg": "/arcodev/static/media/about.f46f1f19.svg",
+    "static/media/alchile.a8fd3683.PNG": "/arcodev/static/media/alchile.a8fd3683.PNG",
+    "static/media/arco.852254a7.jpg": "/arcodev/static/media/arco.852254a7.jpg",
+    "static/media/bicisbalam.ee6bc3eb.PNG": "/arcodev/static/media/bicisbalam.ee6bc3eb.PNG",
+    "static/media/blackwolf.b28a9623.PNG": "/arcodev/static/media/blackwolf.b28a9623.PNG",
+    "static/media/bootstrap.333f5e43.svg": "/arcodev/static/media/bootstrap.333f5e43.svg",
+    "static/media/cgeotect.0334c8b6.PNG": "/arcodev/static/media/cgeotect.0334c8b6.PNG",
+    "static/media/css.a79b97e7.svg": "/arcodev/static/media/css.a79b97e7.svg",
+    "static/media/email.33a78295.svg": "/arcodev/static/media/email.33a78295.svg",
+    "static/media/github.d1bb13ce.svg": "/arcodev/static/media/github.d1bb13ce.svg",
+    "static/media/html5.d0addc05.svg": "/arcodev/static/media/html5.d0addc05.svg",
+    "static/media/js.eb9d2cb6.svg": "/arcodev/static/media/js.eb9d2cb6.svg",
+    "static/media/linkedin.3cd755e2.svg": "/arcodev/static/media/linkedin.3cd755e2.svg",
+    "static/media/lip.82d256e0.PNG": "/arcodev/static/media/lip.82d256e0.PNG",
+    "static/media/mysql.4e6fc768.svg": "/arcodev/static/media/mysql.4e6fc768.svg",
+    "static/media/php.e7123345.svg": "/arcodev/static/media/php.e7123345.svg",
+    "static/media/react.7098e271.svg": "/arcodev/static/media/react.7098e271.svg",
+    "static/media/rocklag.7f724e91.PNG": "/arcodev/static/media/rocklag.7f724e91.PNG",
+    "static/media/sass.f5019806.svg": "/arcodev/static/media/sass.f5019806.svg",
+    "static/media/whatsapp.89481620.svg": "/arcodev/static/media/whatsapp.89481620.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62dbbed3.js",
+    "static/js/2.8c099ce2.chunk.js",
+    "static/css/main.8a311a13.chunk.css",
+    "static/js/main.e68411d5.chunk.js"
+  ]
+}
