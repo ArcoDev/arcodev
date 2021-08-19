@@ -19,7 +19,7 @@ const Contact = () => {
           <img src={email} alt="linkedin" />
           <p>Email</p>
         </a>
-        <a href="https://wa.link/29fo2x" className="links">
+        <a href="https://wa.link/rr5urp" className="links">
           <img src={whats} alt="linkedin" />
           <p>Whatsapp</p>
         </a>

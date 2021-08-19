@@ -13,7 +13,7 @@ const Header = () => {
         </p>
         <a
           className="btn-global"
-          href="../../../build/static/media/CV-ARCO.pdf"
+          href="../../../build/static/media/CV-Christian Acosta.pdf"
           download=""
         >
           Descarga mi currículum
