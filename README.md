@@ -32,7 +32,7 @@ Me encanta estar al día en los cambios de las nuevas tecnologías, en especial 
 
 ## :postbox: Contactame
 <a href="https://www.linkedin.com/in/christan-osvaldo-acosta-ram%C3%ADrez-99aa25192/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Christian%20Acosta-blue?style=flat-square&logo=linkedin"></a>
-<a href="arcodev07@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-arcodev07@gmail.com-blue?style=flat-square&logo=gmail"></a>  
+<a href="mailto:arcodev07@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Gmail-arcodev07@gmail.com-blue?style=flat-square&logo=gmail"></a>  
 
 ## :chart_with_upwards_trend: Estadisticas de mi cuenta 
 [![Github Years Old](https://badges.pufler.dev/years/arcodev?style=flat-square&logo=github&logoWidth=20&logoColor=white&labelColor=1f2235&color=red&label=Years%20Old%20%20.&cacheSeconds=3600)](https://github.com/arcodev)
