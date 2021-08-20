@@ -21,7 +21,6 @@ const Developer = {
  ### 📫 CONTACTAME Y CHARLEMOS
 [![Twitter URL](https://img.shields.io/twitter/url?label=email&logo=gmail&style=social&url=http%3A%2F%2Fmailto%3arcodev07%40gmail.com)](mailto:arcodev07@gmail.com)
 [![Twitter URL](https://img.shields.io/twitter/url?label=LinkedIn&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fismailhabibi)](https://www.linkedin.com/in/christan-osvaldo-acosta-ram%C3%ADrez-99aa25192/)
-[![Twitter URL](https://img.shields.io/twitter/url?label=Telegram&logo=telegram&style=social&url=https%3A%2F%2Ft.me%2Fismlhbb)](https://t.me/ismlhbb)
 
 <!--
 **ArcoDev/arcodev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
