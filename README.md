@@ -57,7 +57,9 @@ Here are some ideas to get you started:
 ![VUEJS](https://img.shields.io/badge/-VUEJS-black?style=flat-square&logo=VUE.JS)
 ![NODEJS](https://img.shields.io/badge/-NODEJS-black?style=flat-square&logo=NODE.JS)
 ![MONGODB](https://img.shields.io/badge/-MONGODB-black?style=flat-square&logo=MONGODB)
+![FIGMA](https://img.shields.io/badge/-FIGMA-black?style=flat-square&logo=FIGMA)
 ![UBUNTU](https://img.shields.io/badge/-UBUNTU-black?style=flat-square&logo=UBUNTU)
+
 
 ### :bar_chart: ESTADISTICAS
 ![Akhil's github stats](https://github-readme-stats.vercel.app/api?username=arcodev&show_icons=true&theme=dark)
