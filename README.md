@@ -7,8 +7,7 @@ const Developer = {
   pronombres: "Christian" | "arcodev",
   codigo: [JAVASCRIPT, PHP, HTML5, CSS3, SASS],
   herramientas: [REACT, LARAVEL, BOOTSTRAP, NODE, YARN, GIT, GITHUB, WORDPRESS],
-  estudios: [INGENIERIA EN SISTEMAS COMPUTACIONALES, UDEMY, YOUTUBE],
-  practica: "Actualmente practico mis conocimientos en frontendmentor"
+  estudios: [INGENIERIA EN SISTEMAS COMPUTACIONALES, UDEMY, YOUTUBE]
 }
 ```
  Tengo aproximadamente 2 años trabajando profesionalmente en este mundo del desarrollo web, sobre todo he estado en el frontend,
