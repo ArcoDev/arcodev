@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arcodev/static/css/main.1bfdbf78.css",
-    "main.js": "/arcodev/static/js/main.d3221735.js",
+    "main.css": "/arcodev/static/css/main.15752c6c.css",
+    "main.js": "/arcodev/static/js/main.b0b77a06.js",
     "static/js/488.7476fb63.chunk.js": "/arcodev/static/js/488.7476fb63.chunk.js",
     "static/media/cv-christian-2024.pdf": "/arcodev/static/media/cv-christian-2024.d9eeae0c7bbf599923d9.pdf",
     "static/media/acosta.png": "/arcodev/static/media/acosta.52f5e375a37a53e6cdb5.png",
@@ -30,14 +30,14 @@
     "index.html": "/arcodev/index.html",
     "static/media/js.svg": "/arcodev/static/media/js.6169c19121c94415a257f20d0c70712c.svg",
     "static/media/sass.svg": "/arcodev/static/media/sass.659213a76485d0f6c9a19167593ae1d5.svg",
-    "static/media/css.svg": "/arcodev/static/media/css.60e23942f41d4dc73de0d271b4453605.svg",
-    "static/media/html5.svg": "/arcodev/static/media/html5.bfc29cc664956a7748f9ee78fa82ec7b.svg",
-    "main.1bfdbf78.css.map": "/arcodev/static/css/main.1bfdbf78.css.map",
-    "main.d3221735.js.map": "/arcodev/static/js/main.d3221735.js.map",
+    "static/media/css.svg": "/arcodev/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
+    "static/media/html5.svg": "/arcodev/static/media/html5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
+    "main.15752c6c.css.map": "/arcodev/static/css/main.15752c6c.css.map",
+    "main.b0b77a06.js.map": "/arcodev/static/js/main.b0b77a06.js.map",
     "488.7476fb63.chunk.js.map": "/arcodev/static/js/488.7476fb63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bfdbf78.css",
-    "static/js/main.d3221735.js"
+    "static/css/main.15752c6c.css",
+    "static/js/main.b0b77a06.js"
   ]
 }
