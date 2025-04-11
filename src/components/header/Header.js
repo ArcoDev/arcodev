@@ -3,10 +3,10 @@ import arcojpg from "../../images/acosta.png";
 import cv from './cv-christian-2024.pdf';
 import email from '../../components/contact/email.svg';
 import linkedin from '../../components/contact/linkedin.svg';
-// import js from '../../images/js.svg'
+import js from '../../images/js.svg'
 import whats from '../../images/whatsapp.svg'
-// import css from '../../images/css.svg'
-// import html from '../../images/html5.svg'
+import css from '../../images/css.svg'
+import html from '../../images/html5.svg'
 import 'animate.css'
 
 
@@ -23,13 +23,13 @@ const Header = () => {
           Descarga mi currículum
         </a>
         <div className="contact">
-          <a href="#" className="header-btnWhatss">
+          <a href="mailto:arcodev07@gmail.com" className="header-btnWhatss">
             <img src={email} />
           </a>
-          <a href="#" className="header-btnWhatss">
+          <a href="https://acortar.link/c2XF5M" className="header-btnWhatss">
             <img src={linkedin} />
           </a>
-          <a href="#" className="header-btnWhatss">
+          <a href="https://wa.link/sp3vyk" className="header-btnWhatss">
             <img src={whats} />
           </a>
         </div>
@@ -37,7 +37,7 @@ const Header = () => {
       </section>
       <section className="image-profile animate__animated animate__fadeInRight">
         <div className="cuadrado"></div>
-        {/* <span className="card-skill js">
+        <span className="card-skill js">
           <img src={js} alt="icon-js" />
         </span>
         <span className="card-skill css">
@@ -45,7 +45,7 @@ const Header = () => {
         </span>
         <span className="card-skill html">
           <img src={html} alt="icon-html" />
-        </span> */}
+        </span>
         <picture>
           <source srcSet={arcowebp} type="image/webp" />
           <source srcSet={arcojpg} type="image/jpeg" />
