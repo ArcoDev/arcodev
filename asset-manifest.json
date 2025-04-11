@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/arcodev/static/css/main.1bfdbf78.css",
+    "main.js": "/arcodev/static/js/main.d3221735.js",
+    "static/js/488.7476fb63.chunk.js": "/arcodev/static/js/488.7476fb63.chunk.js",
+    "static/media/cv-christian-2024.pdf": "/arcodev/static/media/cv-christian-2024.d9eeae0c7bbf599923d9.pdf",
+    "static/media/acosta.png": "/arcodev/static/media/acosta.52f5e375a37a53e6cdb5.png",
+    "static/media/rocklag.jpg": "/arcodev/static/media/rocklag.b6b035456712c99bd345.jpg",
+    "static/media/lip.jpg": "/arcodev/static/media/lip.c339ea19e18c0adcc6ea.jpg",
+    "static/media/rocklag.webp": "/arcodev/static/media/rocklag.42e55c0767803fdd844f.webp",
+    "static/media/lip.webp": "/arcodev/static/media/lip.70dabdfedec47102098f.webp",
+    "static/media/bicisbalam.jpg": "/arcodev/static/media/bicisbalam.9e0c3c0327e338f9a3e8.jpg",
+    "static/media/bicisbalam.webp": "/arcodev/static/media/bicisbalam.beb5475676c553c9bbf8.webp",
+    "static/media/cgeotect.jpg": "/arcodev/static/media/cgeotect.34a4c1eb4d26f061bff6.jpg",
+    "static/media/cgeotect.webp": "/arcodev/static/media/cgeotect.e41bcf8424e5bb6c82cf.webp",
+    "static/media/blackwolf.jpg": "/arcodev/static/media/blackwolf.a1c97750edb498ec5c1f.jpg",
+    "static/media/blackwolf.webp": "/arcodev/static/media/blackwolf.d1ab40eb1548d7caf3a8.webp",
+    "static/media/alchile.jpg": "/arcodev/static/media/alchile.10756a1dd2ca0e9d5d16.jpg",
+    "static/media/acosta.webp": "/arcodev/static/media/acosta.50f6f6650ba20948289a.webp",
+    "static/media/alchile.webp": "/arcodev/static/media/alchile.806e936869239daea475.webp",
+    "static/media/about.svg": "/arcodev/static/media/about.f46f1f196ba482622c3bbbc364b3ad51.svg",
+    "static/media/mysql.svg": "/arcodev/static/media/mysql.4e6fc76860c30ade009df8b119c7eaa5.svg",
+    "static/media/github.svg": "/arcodev/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
+    "static/media/php.svg": "/arcodev/static/media/php.e71233459c2de6a06c5ac48f25ecd766.svg",
+    "static/media/react.svg": "/arcodev/static/media/react.7098e2714733fed1ce8cdb90d51c4289.svg",
+    "static/media/whatsapp.svg": "/arcodev/static/media/whatsapp.6b1cea7ff7a64568d1aa948a79a5d8d7.svg",
+    "static/media/bootstrap.svg": "/arcodev/static/media/bootstrap.333f5e43f07c0838ca3c160adb53e877.svg",
+    "static/media/linkedin.svg": "/arcodev/static/media/linkedin.3cd755e2ab001c51453c0a60c73efee7.svg",
+    "static/media/email.svg": "/arcodev/static/media/email.33a78295f8d77a99449e837cea7dae9e.svg",
+    "index.html": "/arcodev/index.html",
+    "static/media/js.svg": "/arcodev/static/media/js.6169c19121c94415a257f20d0c70712c.svg",
+    "static/media/sass.svg": "/arcodev/static/media/sass.659213a76485d0f6c9a19167593ae1d5.svg",
+    "static/media/css.svg": "/arcodev/static/media/css.60e23942f41d4dc73de0d271b4453605.svg",
+    "static/media/html5.svg": "/arcodev/static/media/html5.bfc29cc664956a7748f9ee78fa82ec7b.svg",
+    "main.1bfdbf78.css.map": "/arcodev/static/css/main.1bfdbf78.css.map",
+    "main.d3221735.js.map": "/arcodev/static/js/main.d3221735.js.map",
+    "488.7476fb63.chunk.js.map": "/arcodev/static/js/488.7476fb63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bfdbf78.css",
+    "static/js/main.d3221735.js"
+  ]
+}
