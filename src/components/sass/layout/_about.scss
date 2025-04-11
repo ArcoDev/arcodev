@@ -1,0 +1,82 @@
+
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 5rem;
+    @include movil {
+        flex-direction: column;
+        align-items: center;
+    }
+    @include tablet {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-right: 3rem;
+
+        @include movil {
+            width: 100%;
+            padding-right: 0;
+        }
+        @include tablet {
+            width: 100%;
+        }
+
+        p {
+            font-size: 1rem;
+            letter-spacing: 1px;
+            line-height: 1.75;
+            text-align: justify;
+            color: $white;
+            font-weight: bold;
+            @include movil {
+                width: 90%;
+                letter-spacing: 0;
+            }
+            @include tablet {
+                width: 90%;
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .img-about {
+        width: 90%;
+        height: 90%;
+        @include movil {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .btn-about {
+        margin-top: 2rem;
+        padding: .8rem 2rem;
+        font-weight: bold;
+        border-radius: 2rem;
+        transition: all .5s ease-out;
+        border: 2px solid $red;
+        color: $red;
+        background: transparent;
+        width: 45%;
+        font-size: 1.1rem;
+        @include movil {
+            width: 80%;
+        }
+        &:hover {
+            background: $red;
+            color: $white;
+            border: 1px solid transparent;
+        }
+    }
+}

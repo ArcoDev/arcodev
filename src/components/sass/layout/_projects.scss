@@ -1,0 +1,116 @@
+.container-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 5rem;
+
+    @include movil {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 45%;
+        border-radius: 16px;
+        background: #12131f4f;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 1.3rem;
+        transition: all .5s ease-out;
+        @include movil {
+            width: 90%;
+        }
+
+        @include tablet {
+            width: 45%;
+        }
+
+        &:nth-child(even) {
+            margin-top: 5rem;
+        }
+
+        &:hover {
+            background: $navDark;
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            // margin: -3rem 0 0 3rem;
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: $white;
+            font-weight: bold;
+            margin: 3rem 0;
+            text-transform: uppercase;
+
+            @include movil {
+                margin: 2rem 0;
+            }
+        }
+
+        .links {
+            display: flex;
+            gap: 1rem;
+
+            a {
+                display: flex;
+                gap: 1rem;
+                padding: .3rem 2rem;
+                border: 1px solid $red;
+                background: transparent;
+                border-radius: 50px;
+                color: $red;
+                cursor: pointer;
+                font-size: 1rem;
+                font-weight: bold;
+                transition: all .5s ease-out;
+
+                @include movil {
+                    font-size: .8rem;
+                    padding: .3rem 1.5rem;
+                }
+
+                @include tablet {
+                    padding: .3rem 1rem;
+                }
+
+                &:nth-child(1) {
+                    background: $red;
+                    color: $white;
+                }
+
+                img {
+                    width: 45%;
+                    height: 45%;
+                }
+            }
+        }
+    }
+
+    .btn-more {
+        margin-top: 3rem;
+        padding: .8rem 2rem;
+        font-weight: bold;
+        border-radius: 2rem;
+        background: transparent;
+        border: 2px solid $red;
+        color: $red;
+        font-size: 1.2rem;
+        transition: all 1s ease-out;
+
+        &:hover {
+            background: $red;
+            color: $white;
+            border: transparent;
+        }
+    }
+}

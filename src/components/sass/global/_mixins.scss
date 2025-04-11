@@ -1,0 +1,11 @@
+/*MEDIA QUERIES*/
+@mixin movil {
+    @media screen and (max-width: $movil) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen and (min-width: $tabletH) and (max-width: $tabletV) {
+        @content;
+    }
+}
