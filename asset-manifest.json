@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/arcodev/static/css/main.15752c6c.css",
-    "main.js": "/arcodev/static/js/main.b0b77a06.js",
+    "main.css": "/arcodev/static/css/main.ee5e41d5.css",
+    "main.js": "/arcodev/static/js/main.3618695c.js",
     "static/js/488.7476fb63.chunk.js": "/arcodev/static/js/488.7476fb63.chunk.js",
+    "static/media/code.jpg": "/arcodev/static/media/code.e28ccaac72020fd7da13.jpg",
     "static/media/cv-christian-2024.pdf": "/arcodev/static/media/cv-christian-2024.d9eeae0c7bbf599923d9.pdf",
+    "static/media/christian-web.png": "/arcodev/static/media/christian-web.d6a888e74e2bed3c294c.png",
     "static/media/acosta.png": "/arcodev/static/media/acosta.52f5e375a37a53e6cdb5.png",
     "static/media/rocklag.jpg": "/arcodev/static/media/rocklag.b6b035456712c99bd345.jpg",
     "static/media/lip.jpg": "/arcodev/static/media/lip.c339ea19e18c0adcc6ea.jpg",
@@ -15,10 +17,11 @@
     "static/media/cgeotect.webp": "/arcodev/static/media/cgeotect.e41bcf8424e5bb6c82cf.webp",
     "static/media/blackwolf.jpg": "/arcodev/static/media/blackwolf.a1c97750edb498ec5c1f.jpg",
     "static/media/blackwolf.webp": "/arcodev/static/media/blackwolf.d1ab40eb1548d7caf3a8.webp",
+    "static/media/christian-web.webp": "/arcodev/static/media/christian-web.9bda49c03fcf09fb1da7.webp",
     "static/media/alchile.jpg": "/arcodev/static/media/alchile.10756a1dd2ca0e9d5d16.jpg",
     "static/media/acosta.webp": "/arcodev/static/media/acosta.50f6f6650ba20948289a.webp",
     "static/media/alchile.webp": "/arcodev/static/media/alchile.806e936869239daea475.webp",
-    "static/media/about.svg": "/arcodev/static/media/about.f46f1f196ba482622c3bbbc364b3ad51.svg",
+    "static/media/code.webp": "/arcodev/static/media/code.3c0578a3e62214ffc4c6.webp",
     "static/media/mysql.svg": "/arcodev/static/media/mysql.4e6fc76860c30ade009df8b119c7eaa5.svg",
     "static/media/github.svg": "/arcodev/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
     "static/media/php.svg": "/arcodev/static/media/php.e71233459c2de6a06c5ac48f25ecd766.svg",
@@ -32,12 +35,12 @@
     "static/media/sass.svg": "/arcodev/static/media/sass.659213a76485d0f6c9a19167593ae1d5.svg",
     "static/media/css.svg": "/arcodev/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/html5.svg": "/arcodev/static/media/html5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
-    "main.15752c6c.css.map": "/arcodev/static/css/main.15752c6c.css.map",
-    "main.b0b77a06.js.map": "/arcodev/static/js/main.b0b77a06.js.map",
+    "main.ee5e41d5.css.map": "/arcodev/static/css/main.ee5e41d5.css.map",
+    "main.3618695c.js.map": "/arcodev/static/js/main.3618695c.js.map",
     "488.7476fb63.chunk.js.map": "/arcodev/static/js/488.7476fb63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15752c6c.css",
-    "static/js/main.b0b77a06.js"
+    "static/css/main.ee5e41d5.css",
+    "static/js/main.3618695c.js"
   ]
 }
