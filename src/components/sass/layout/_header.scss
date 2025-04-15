@@ -17,7 +17,7 @@
         margin: 0 3rem;
         display: flex;
         flex-direction: column;
-        padding: 15rem 0 0 7rem;
+        padding: 12rem 0 0 7rem;
         color: aliceblue;
         position: relative;
 
@@ -30,7 +30,7 @@
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 2.3rem;
             font-weight: bold;
             letter-spacing: 8px;
             color: $white;
@@ -43,8 +43,8 @@
         }
 
         h1 {
-            font-size: 2.5rem;
-            margin-top: 1rem;
+            font-size: 2.6rem;
+            margin-top: 4rem;
 
             @include movil {
                 font-size: 1.9rem;
@@ -78,7 +78,7 @@
         }
 
         .carrer {
-            font-size: 4.5rem;
+            font-size: 5rem;
             font-weight: bold;
             margin-top: 1rem;
             display: inline-block;
@@ -95,9 +95,9 @@
             content: '';
             position: absolute;
             left: 8rem;
-            top: 16.1rem;
+            top: 13.4rem;
             width: 90px;
-            height: 3px;
+            height: 4px;
             background: $red;
 
             @include movil {
@@ -124,9 +124,9 @@
 
         .header-btnCV {
             width: 100%;
-            max-width: 280px;
-            padding: 1rem 1.5rem;
-            font-size: 1.3rem;
+            max-width: 500px;
+            padding: 1rem;
+            font-size: 1.5rem;
             font-weight: 900;
             color: $red;
             background: transparent;
@@ -217,7 +217,7 @@
     }
 
     .card-skill {
-        width: 8.2%;
+        width: 8%;
         height: 8%;
         animation: glow 2s infinite alternate;
         @include movil {
@@ -239,7 +239,7 @@
         &.html {
             position: absolute;
             top: 43rem;
-            left: 7.9rem;
+            left: 7.5rem;
         }
     }
 
