@@ -53,6 +53,7 @@
             width: 100vw;
             height: 100vh;
             position: absolute;
+            z-index: 99;
             transition: all 1s ease-out;
             transform: translateY(-150%);
             &.anima-nav {
@@ -187,6 +188,7 @@
             width: 50%;
             display: inline-flex;
             padding-top: .3rem;
+            z-index: 100;
         }
 
         @include tablet {
