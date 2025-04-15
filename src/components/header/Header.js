@@ -24,13 +24,13 @@ const Header = () => {
         </a>
         <div className="contact">
           <a href="mailto:arcodev07@gmail.com" className="header-btnWhatss">
-            <img src={email} />
+            <img src={email} alt="icon-contact-email" />
           </a>
           <a href="https://acortar.link/c2XF5M" className="header-btnWhatss">
-            <img src={linkedin} />
+            <img src={linkedin} alt="icon-contact-linkedin" />
           </a>
           <a href="https://wa.link/sp3vyk" className="header-btnWhatss">
-            <img src={whats} />
+            <img src={whats} alt="icon-contact-whatsapp" />
           </a>
         </div>
       </div>

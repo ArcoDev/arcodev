@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-
+    position: relative;
     @include movil {
+        height: auto;
         justify-content: start;
         flex-direction: column;
     }
@@ -23,7 +24,7 @@
         @include movil {
             width: 100%;
             justify-content: center;
-            padding: 2rem 2rem 0 2rem;
+            padding: 2rem 1.5rem;
             margin: 0;
             gap: 12px;
         }
@@ -55,7 +56,7 @@
                 font-weight: bold;
 
                 @include movil {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                 }
             }
         }
@@ -183,6 +184,19 @@
 
 
     //****************** Section Img
+    .image-profile {
+        position: relative;
+        width: 55%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        @include movil {
+            width: 100%;
+            padding: 0;
+        }
+    }
+
     .cuadrado {
         position: absolute;
         top: 8rem;
@@ -193,23 +207,12 @@
         mask-image: linear-gradient($navDark, 80%, transparent);
 
         @include movil {
-            width: 90%;
-            top: 6rem;
-            left: 1.6rem;
-        }
-    }
-
-    .image-profile {
-        position: relative;
-        width: 55%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        padding-top: 2rem;
-
-        @include movil {
-            width: 100%;
-            justify-content: start;
+            width: 85%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
         }
     }
 
