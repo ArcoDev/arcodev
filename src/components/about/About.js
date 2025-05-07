@@ -23,11 +23,10 @@ const About = () => {
           <h3>Sobre Mi</h3>
           <h4>🧑‍💻 Desarrollador Full Stack con enfoque en resultados.</h4>
           <p>➕ De 5 años de experiencia profesional en desarrollo web, me especializo en crear interfaces modernas, responsivas y orientadas a la mejor experiencia de usuario.</p>
-          <p>✨ Mi enfoque está en el frontend, donde combino diseño, funcionalidad y buenas prácticas de desarrollo para entregar soluciones efectivas y visualmente atractivas.</p>
           <p>📚 Me mantengo en constante aprendizaje, actualizándome con las tecnologías más demandadas del mercado para ofrecer siempre un trabajo competitivo y de calidad.</p>
           <p>🚀 Si buscas a alguien comprometido, creativo y con visión técnica para llevar tu proyecto al siguiente nivel, ¡estás en el lugar correcto!</p>
           <div className="boxBtnPortafolio">
-            <a href="#portafolio">Ver mi trabajo 👇</a>
+            <a href="#portafolio">Ver mi trabajo 👇</a> 
           </div>
         </div>
       </div>
