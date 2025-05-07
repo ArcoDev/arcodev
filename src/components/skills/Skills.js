@@ -8,6 +8,8 @@ import imgGit from "../../images/github.svg";
 import imgMysql from "../../images/mysql.svg";
 import imgReact from "../../images/react.svg";
 import BoxSkill from "../box-skill/Box-skill";
+import imgDevExtreme from "../../images/devExtreme.svg";
+import useHover from "./HoverCard";
 
 const Skills = () => {
   const listBoxInfo = [
@@ -33,8 +35,8 @@ const Skills = () => {
     },
     {
       id: 5,
-      img: imgSass,
-      text: "SASS",
+      img: imgDevExtreme,
+      text: "DevExtreme",
     },
     {
       id: 6,
@@ -56,17 +58,28 @@ const Skills = () => {
       img: imgReact,
       text: "REACT JS",
     },
+    {
+      id: 10,
+      img: imgSass,
+      text: "Sass",
+    },
   ];
+  const [hoverRef, isHovered] = useHover();
   return (
     <>
       <div id="skills" className="anchor"></div>
       <div className="title-section">
         <h2>Skills</h2>
       </div>
-      <div className="container-skill">
-        {listBoxInfo.map((listBox) => (
-          <BoxSkill key={listBox.id} {...listBox} />
-        ))}
+      <div className="scroll-skill">
+        <div
+          className={`container-skill ${isHovered ? "paused" : ""}`}
+          ref={hoverRef}
+        >
+          {[...listBoxInfo, ...listBoxInfo].map((listBox, index) => (
+            <BoxSkill key={index} {...listBox} />
+          ))}
+        </div>
       </div>
     </>
   );
