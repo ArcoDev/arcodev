@@ -1,7 +1,7 @@
-const BoxSkill = ({img, text}) => {
+const BoxSkill = ({img, text, className, altText}) => {
   return (
-    <div className="box-skill">
-      <img src={img} alt="Icon skills" />
+    <div className={className}>
+      <img src={img} alt={altText} />
       <p>{text}</p>
     </div>
   );

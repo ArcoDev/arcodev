@@ -77,7 +77,7 @@ const Skills = () => {
           ref={hoverRef}
         >
           {[...listBoxInfo, ...listBoxInfo].map((listBox, index) => (
-            <BoxSkill key={index} {...listBox} />
+            <BoxSkill className="box-skill" key={index} {...listBox} />
           ))}
         </div>
       </div>
