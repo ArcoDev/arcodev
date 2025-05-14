@@ -1,25 +1,70 @@
-.container-card {
-    width: 100%;
+.projects-tabs {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 1rem;
+
+    button {
+        padding: 0.5rem 2rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: none;
+        background: transparent;
+        color: $red;
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+
+        &.active {
+            background: $red;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 6px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        @include movil {
+            font-size: 1rem;
+            padding: 0.5rem 1.5rem;
+        }
+
+        @include tablet {
+            padding: 0.5rem 1rem;
+        }
+
+        &:hover {
+            background: $red;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 6px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+.container-card {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 0 auto;
     margin-bottom: 5rem;
+    padding: 3rem 0;
 
     @include movil {
         flex-direction: column;
     }
 
-    .card {
-        width: 45%;
+    .card-project {
+        width: 30%;
         border-radius: 16px;
-        background: #12131f4f;
+        background: $navDark;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 6px 10px rgba(0, 0, 0, 0.19);
         display: flex;
         align-items: center;
         flex-direction: column;
         padding-bottom: 1.3rem;
-        transition: all .5s ease-out;
+        transition: all 0.5s ease-out;
+
         @include movil {
             width: 90%;
         }
@@ -28,26 +73,41 @@
             width: 45%;
         }
 
-        &:nth-child(even) {
-            margin-top: 5rem;
-        }
+        // &:nth-child(even) {
+        //     margin-top: 5rem;
+        // }
 
         &:hover {
-            background: $navDark;
-            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-        }
-        img {
-            width: 100%;
-            height: 100%;
-            border-top-left-radius: 16px;
-            border-top-right-radius: 16px;
-            // margin: -3rem 0 0 3rem;
-            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+            background: #12131f;
+            transform: scale(1.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 1), 0 6px 10px rgba(0, 0, 0, 1);
         }
 
-        h2 {
+        .image-container {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 6px 10px rgba(0, 0, 0, 0.19);
+            transition: all 0.5s ease-out;
+            border-bottom: 8px solid $red;
+            border-radius: 16px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-project:hover .image-container img {
+            transform: scale(1.05);
+        }
+
+        .project-title {
             font-size: 1.5rem;
-            color: $white;
+            color: white;
             font-weight: bold;
             margin: 3rem 0;
             text-transform: uppercase;
@@ -57,59 +117,67 @@
             }
         }
 
-        .links {
+        .project-details {
+            width: 100%;
             display: flex;
-            gap: 1rem;
+            align-items: center;
+            flex-direction: column;
+            padding: 2rem;
+            gap: 2rem;
+            color: white;
 
-            a {
-                display: flex;
-                gap: 1rem;
-                padding: .3rem 2rem;
-                border: 1px solid $red;
-                background: transparent;
-                border-radius: 50px;
-                color: $red;
-                cursor: pointer;
-                font-size: 1rem;
+            h2 {
+                font-size: 1.5rem;
                 font-weight: bold;
-                transition: all .5s ease-out;
+                text-transform: uppercase;
+                color: $red;
+            }
 
-                @include movil {
-                    font-size: .8rem;
-                    padding: .3rem 1.5rem;
-                }
+            p {
+                font-size: 1.2rem;
+                color: white;
+                line-height: 1.5;
+            }
+        }
 
-                @include tablet {
-                    padding: .3rem 1rem;
-                }
-
-                &:nth-child(1) {
-                    background: $red;
-                    color: $white;
-                }
-
+        .project-technologies {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            .box-tech {
+                display: grid;
+                place-items: center;
                 img {
-                    width: 45%;
-                    height: 45%;
+                    width: 35px;
+                    height: 35px;
+                    object-fit: cover;
                 }
             }
+        }
+
+        .project-links {
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            padding: 2rem;
         }
     }
 
     .btn-more {
         margin-top: 3rem;
-        padding: .8rem 2rem;
+        padding: 0.8rem 2rem;
         font-weight: bold;
         border-radius: 2rem;
         background: transparent;
-        border: 2px solid $red;
-        color: $red;
+        border: 2px solid #fd4a57;
+        color: #fd4a57;
         font-size: 1.2rem;
         transition: all 1s ease-out;
 
         &:hover {
-            background: $red;
-            color: $white;
+            background: #fd4a57;
+            color: white;
             border: transparent;
         }
     }
