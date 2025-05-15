@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.css": "/arcodev/static/css/main.ee5e41d5.css",
-    "main.js": "/arcodev/static/js/main.3618695c.js",
+    "main.css": "/arcodev/static/css/main.e2d56637.css",
+    "main.js": "/arcodev/static/js/main.fb539237.js",
     "static/js/488.7476fb63.chunk.js": "/arcodev/static/js/488.7476fb63.chunk.js",
     "static/media/code.jpg": "/arcodev/static/media/code.e28ccaac72020fd7da13.jpg",
+    "static/media/transmontes.png": "/arcodev/static/media/transmontes.c01d2feacb5a84e8869f.png",
+    "static/media/lugiBosca.png": "/arcodev/static/media/lugiBosca.26b674148d58d7c77df3.png",
+    "static/media/jumaco.png": "/arcodev/static/media/jumaco.fc6293e54983375319d0.png",
     "static/media/cv-christian-2024.pdf": "/arcodev/static/media/cv-christian-2024.d9eeae0c7bbf599923d9.pdf",
+    "static/media/transmontes.webp": "/arcodev/static/media/transmontes.92e9a1dfa0b7c561e062.webp",
+    "static/media/lugiBosca.webp": "/arcodev/static/media/lugiBosca.0e5a7bb4f6cc9c677255.webp",
     "static/media/christian-web.png": "/arcodev/static/media/christian-web.d6a888e74e2bed3c294c.png",
     "static/media/acosta.png": "/arcodev/static/media/acosta.52f5e375a37a53e6cdb5.png",
+    "static/media/jumaco.webp": "/arcodev/static/media/jumaco.901cb89011f62223a5a4.webp",
     "static/media/rocklag.jpg": "/arcodev/static/media/rocklag.b6b035456712c99bd345.jpg",
     "static/media/lip.jpg": "/arcodev/static/media/lip.c339ea19e18c0adcc6ea.jpg",
     "static/media/rocklag.webp": "/arcodev/static/media/rocklag.42e55c0767803fdd844f.webp",
@@ -25,6 +31,7 @@
     "static/media/mysql.svg": "/arcodev/static/media/mysql.4e6fc76860c30ade009df8b119c7eaa5.svg",
     "static/media/github.svg": "/arcodev/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
     "static/media/php.svg": "/arcodev/static/media/php.e71233459c2de6a06c5ac48f25ecd766.svg",
+    "static/media/devExtreme.svg": "/arcodev/static/media/devExtreme.15bb1c2cb504d1fa5b3b7bc720cdc657.svg",
     "static/media/react.svg": "/arcodev/static/media/react.7098e2714733fed1ce8cdb90d51c4289.svg",
     "static/media/whatsapp.svg": "/arcodev/static/media/whatsapp.6b1cea7ff7a64568d1aa948a79a5d8d7.svg",
     "static/media/bootstrap.svg": "/arcodev/static/media/bootstrap.333f5e43f07c0838ca3c160adb53e877.svg",
@@ -35,12 +42,12 @@
     "static/media/sass.svg": "/arcodev/static/media/sass.659213a76485d0f6c9a19167593ae1d5.svg",
     "static/media/css.svg": "/arcodev/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/html5.svg": "/arcodev/static/media/html5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
-    "main.ee5e41d5.css.map": "/arcodev/static/css/main.ee5e41d5.css.map",
-    "main.3618695c.js.map": "/arcodev/static/js/main.3618695c.js.map",
+    "main.e2d56637.css.map": "/arcodev/static/css/main.e2d56637.css.map",
+    "main.fb539237.js.map": "/arcodev/static/js/main.fb539237.js.map",
     "488.7476fb63.chunk.js.map": "/arcodev/static/js/488.7476fb63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee5e41d5.css",
-    "static/js/main.3618695c.js"
+    "static/css/main.e2d56637.css",
+    "static/js/main.fb539237.js"
   ]
 }
