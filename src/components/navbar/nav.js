@@ -43,9 +43,9 @@ const Nav = () => {
             <li>
               <a href="#projects">Proyectos</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#contact">Contactame</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="box-switch">
