@@ -17,10 +17,18 @@ export default function Proyectos() {
       </div>
 
       <div className="projects-tabs">
+        <select onChange={e => setActiveTab(e.target.value)} value={activeTab}>
+          {categories.map(cat => (
+            <option key={cat} value={cat}>
+              {cat.charAt(0).toUpperCase() + cat.slice(1)}
+            </option>
+          ))}
+        </select>
+
         {categories.map(cat => (
           <button
             key={cat}
-            className={`${activeTab === cat ? 'active' : 'bg-white text-black border-black'}`}
+            className={activeTab === cat ? 'active' : ''}
             onClick={() => setActiveTab(cat)}
           >
             {cat.charAt(0).toUpperCase() + cat.slice(1)}
@@ -29,15 +37,17 @@ export default function Proyectos() {
       </div>
 
       <div className="container-card">
-        {filteredProjects.map(({ id, img_jpg, img_webp, title, repository, webSite, technologies }) => (
+        {filteredProjects.map(({ id, img_jpg, img_webp, title, description, repository, webSite, links, technologies }) => (
           <CardProjects
             key={id}
             imgjpg={img_jpg}
             imgwebp={img_webp}
             title={title}
+            description={description}
             repository={repository}
             webSite={webSite}
             technologies={technologies}
+            links={links}
           />
         ))}
         {/* <a

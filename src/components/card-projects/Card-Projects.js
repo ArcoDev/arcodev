@@ -1,5 +1,7 @@
 import BoxSkill from "../box-skill/Box-skill";
-const CardProjects = ({ imgjpg, imgwebp, title, repository, webSite, technologies }) => {
+import { FaGithub } from "react-icons/fa6";
+import { FaEye } from "react-icons/fa6";
+const CardProjects = ({ imgjpg, imgwebp, title, description, repository, webSite, technologies, links }) => {
   return (
     <article className="card-project">
       <header className="image-container">
@@ -12,9 +14,7 @@ const CardProjects = ({ imgjpg, imgwebp, title, repository, webSite, technologie
       <section className="project-details">
         <h2>{title}</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-          facilisis, nunc at bibendum fringilla, nisi nunc faucibus nisi, nec
-          tincidunt nunc nunc eget nunc.
+          {description}
         </p>
         <div className="project-technologies">
           {technologies.map((tech) => (
@@ -28,12 +28,16 @@ const CardProjects = ({ imgjpg, imgwebp, title, repository, webSite, technologie
         </div>
       </section>
       <footer className="project-links">
-        <a href={repository} target="_blank" rel="noreferrer" title="Repositorio">
-          🧾
-        </a>
-        <a href={webSite} target="_blank" rel="noreferrer" title="Ver Sitio">
-          🌐
-        </a>
+        {links && (
+          <>
+            <a href={repository} target="_blank" rel="noreferrer" title="Repositorio">
+              <FaGithub />
+            </a>
+            <a href={webSite} target="_blank" rel="noreferrer" title="Ver Sitio">
+              <FaEye />
+            </a>
+          </>
+        )}
       </footer>
     </article>
   );

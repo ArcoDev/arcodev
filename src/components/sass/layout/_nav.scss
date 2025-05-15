@@ -1,9 +1,10 @@
 .navegation {
-    // position: fixed;
+    position: fixed;
     width: 100%;
     height: 10vh;
     background: $navDark;
     display: flex;
+    z-index: 999999;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.377);
     @include movil {
         box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.377);
