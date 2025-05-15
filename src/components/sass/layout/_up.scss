@@ -1,0 +1,31 @@
+.up {
+    position: fixed;
+    bottom: 2em;
+    right: 2rem;
+    z-index: 1000;
+    width: 80px;
+    height: 80px;
+    background-color: $navDark;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: glowUp 1.5s infinite alternate;
+    display: grid;
+    place-items: center;
+    color: $red;
+    @include movil {
+        width: 50px;
+        height: 50px;
+        right: 0.7rem;
+        bottom: 0.7rem;
+    }
+}
+
+@keyframes glowUp {
+    from {
+        filter: drop-shadow(0 0 8px $red);
+    }
+
+    to {
+        filter: drop-shadow(0 0 20px $red);
+    }
+}
