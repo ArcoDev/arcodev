@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/arcodev/static/css/main.e2d56637.css",
+    "main.css": "/arcodev/static/css/main.1deab862.css",
     "main.js": "/arcodev/static/js/main.fb539237.js",
     "static/js/488.7476fb63.chunk.js": "/arcodev/static/js/488.7476fb63.chunk.js",
     "static/media/code.jpg": "/arcodev/static/media/code.e28ccaac72020fd7da13.jpg",
@@ -42,12 +42,12 @@
     "static/media/sass.svg": "/arcodev/static/media/sass.659213a76485d0f6c9a19167593ae1d5.svg",
     "static/media/css.svg": "/arcodev/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/html5.svg": "/arcodev/static/media/html5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
-    "main.e2d56637.css.map": "/arcodev/static/css/main.e2d56637.css.map",
+    "main.1deab862.css.map": "/arcodev/static/css/main.1deab862.css.map",
     "main.fb539237.js.map": "/arcodev/static/js/main.fb539237.js.map",
     "488.7476fb63.chunk.js.map": "/arcodev/static/js/488.7476fb63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2d56637.css",
+    "static/css/main.1deab862.css",
     "static/js/main.fb539237.js"
   ]
 }
