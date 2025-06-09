@@ -30,6 +30,17 @@
             margin: 0;
         }
 
+        @include tablet {
+            position: absolute;
+            width: 90%;
+            z-index: 2000;
+            padding: 0;
+            bottom: 1rem;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
         p {
             font-size: 2.3rem;
             font-weight: bold;
@@ -40,6 +51,9 @@
             @include movil {
                 font-size: 1.8rem;
                 padding-left: 3rem;
+            }
+            @include tablet {
+                padding-left: 0;
             }
         }
 
@@ -107,6 +121,11 @@
                 left: 2rem;
                 top: 3rem;
             }
+            @include tablet {
+                width: 150px;
+                left: 16rem;
+                top: 4rem;
+            }
         }
     }
 
@@ -123,7 +142,13 @@
             margin-top: 5rem;
             gap: 1.5rem;
         }
-
+        @include tablet {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
         .header-btnCV {
             width: 100%;
             max-width: 500px;
@@ -144,6 +169,7 @@
                 padding: 1rem;
                 font-size: 1.3rem;
             }
+            
 
             &:hover {
                 background: #12131f6c;
@@ -172,12 +198,19 @@
                 height: 48px;
             }
         }
+        @include tablet {
+            align-items: center;
+            justify-content: center;
+        }
         a>img {
             width: 40px;
             height: 40px;
             transition: transform 0.3s ease;
             cursor: pointer;
-
+            @include tablet {
+                width: 45px;
+                height: 45px;
+            }            
             &:hover {
                 transform: scale(1.3);
             }
@@ -216,6 +249,9 @@
             right: 0;
             margin: auto;
         }
+        @include tablet {
+            width: 140%;
+        }
     }
 
     .card-skill {
@@ -230,18 +266,29 @@
             position: absolute;
             top: 5rem;
             left: 8rem;
+            @include tablet {
+                display: none;
+            }
         }
 
         &.css {
             position: absolute;
             top: 27rem;
             right: 8.9rem;
+            @include tablet {
+                top: 25rem;
+                right: -4rem;
+            }
         }
 
         &.html {
             position: absolute;
             top: 43rem;
             left: 7.5rem;
+            @include tablet {
+                top: 5rem;
+                left: -8rem;
+            }
         }
     }
 
@@ -263,5 +310,8 @@
     @include movil {
         width: 100%;
         height: 100%;
+    }
+    @include tablet {
+        mask-image: linear-gradient($navDark, 100%,);
     }
 }

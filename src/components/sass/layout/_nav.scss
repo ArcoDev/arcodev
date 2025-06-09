@@ -6,14 +6,7 @@
     display: flex;
     z-index: 999999;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.377);
-    @include movil {
-        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.377);
-    }
-
-    @include tablet {
-        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.377);
-
-    }
+    padding: 0 .5rem;
 
     .box-logo {
         width: 30%;
@@ -124,6 +117,12 @@
 
         .switch {
             padding-top: .5rem;
+            @include tablet {
+                display: none;
+                // position: absolute;
+                // right: 5.8rem;
+                // padding-top: 0;
+            }
 
             span {
                 visibility: hidden;
