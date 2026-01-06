@@ -1,6 +1,6 @@
 import arcowebp from "../../images/acosta.webp";
 import arcojpg from "../../images/acosta.png";
-import cv from './cv-christian-2024.pdf';
+import cv from './cv-christian-2026.pdf';
 import email from '../../components/contact/email.svg';
 import linkedin from '../../components/contact/linkedin.svg';
 import js from '../../images/js.svg'
