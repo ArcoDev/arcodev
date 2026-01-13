@@ -124,33 +124,6 @@ export const projects = [{
         ]
     },
     {
-        id: 4,
-        img_jpg: blackwolfjpg,
-        img_webp: blackwolfwebp,
-        title: "Black Wolf",
-        description: "Venta de productos de la marca Black Wolf, en la cual se pueden encontrar productos como ropa, accesorios y calzado.",
-        repository: "https://github.com/ArcoDev/blackwolf",
-        webSite: "https://blackwolftrc.com/",
-        category: 'ecommerce',
-        links: true,
-        technologies: [{
-                id: 1,
-                img: imgJs,
-                text: 'javascript'
-            },
-            {
-                id: 2,
-                img: imgHtml,
-                text: 'html'
-            },
-            {
-                id: 3,
-                img: imgCss,
-                text: 'css'
-            }
-        ]
-    },
-    {
         id: 5,
         img_jpg: balamjpg,
         img_webp: balamwebp,
@@ -295,7 +268,7 @@ export const projects = [{
         ]
     },
     {
-        id: 9,
+        id: 4,
         img_jpg: luigi,
         img_webp: luigiWebp,
         title: "Luigi Bosca",

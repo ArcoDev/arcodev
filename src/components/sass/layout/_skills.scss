@@ -16,9 +16,6 @@
             animation: unset;
             flex-wrap: wrap;
         }
-        @include tablet {
-            flex-wrap: wrap;
-        }
     
         &.paused {
             animation-play-state: paused;
@@ -51,8 +48,9 @@
             }
     
             @include tablet {
-                width: 30%;
-                height: 30%;
+                width: 100%;
+                height: 100%;
+                padding: 1rem;
             }
     
             &:hover {
