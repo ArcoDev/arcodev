@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arcodev/static/css/main.6ec5cb23.css",
-    "main.js": "/arcodev/static/js/main.4838b129.js",
+    "main.css": "/arcodev/static/css/main.a3492514.css",
+    "main.js": "/arcodev/static/js/main.2f146d71.js",
     "static/js/488.471ad99a.chunk.js": "/arcodev/static/js/488.471ad99a.chunk.js",
     "static/media/code.jpg": "/arcodev/static/media/code.e28ccaac72020fd7da13.jpg",
     "static/media/transmontes.png": "/arcodev/static/media/transmontes.c01d2feacb5a84e8869f.png",
@@ -10,9 +10,11 @@
     "static/media/cv-christian-2026.pdf": "/arcodev/static/media/cv-christian-2026.cad71b259bfac0364dc8.pdf",
     "static/media/transmontes.webp": "/arcodev/static/media/transmontes.92e9a1dfa0b7c561e062.webp",
     "static/media/lugiBosca.webp": "/arcodev/static/media/lugiBosca.0e5a7bb4f6cc9c677255.webp",
+    "static/media/sistema-comedor.png": "/arcodev/static/media/sistema-comedor.091e0118f85cbb1a5d59.png",
     "static/media/christian-web.png": "/arcodev/static/media/christian-web.d6a888e74e2bed3c294c.png",
     "static/media/acosta.png": "/arcodev/static/media/acosta.52f5e375a37a53e6cdb5.png",
     "static/media/jumaco.webp": "/arcodev/static/media/jumaco.901cb89011f62223a5a4.webp",
+    "static/media/sistema-comedor.webp": "/arcodev/static/media/sistema-comedor.5d9fa9f217a061cdc62a.webp",
     "static/media/rocklag.jpg": "/arcodev/static/media/rocklag.b6b035456712c99bd345.jpg",
     "static/media/lip.jpg": "/arcodev/static/media/lip.c339ea19e18c0adcc6ea.jpg",
     "static/media/rocklag.webp": "/arcodev/static/media/rocklag.42e55c0767803fdd844f.webp",
@@ -27,6 +29,7 @@
     "static/media/alchile.jpg": "/arcodev/static/media/alchile.10756a1dd2ca0e9d5d16.jpg",
     "static/media/acosta.webp": "/arcodev/static/media/acosta.50f6f6650ba20948289a.webp",
     "static/media/alchile.webp": "/arcodev/static/media/alchile.806e936869239daea475.webp",
+    "static/media/nodejs.png": "/arcodev/static/media/nodejs.10ccac0eb9dd930b6b6c.png",
     "static/media/code.webp": "/arcodev/static/media/code.3c0578a3e62214ffc4c6.webp",
     "static/media/mysql.svg": "/arcodev/static/media/mysql.4e6fc76860c30ade009df8b119c7eaa5.svg",
     "static/media/github.svg": "/arcodev/static/media/github.d1bb13ce1a593d82e4c0d821dc7f1b41.svg",
@@ -42,12 +45,12 @@
     "static/media/sass.svg": "/arcodev/static/media/sass.659213a76485d0f6c9a19167593ae1d5.svg",
     "static/media/css.svg": "/arcodev/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/html5.svg": "/arcodev/static/media/html5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
-    "main.6ec5cb23.css.map": "/arcodev/static/css/main.6ec5cb23.css.map",
-    "main.4838b129.js.map": "/arcodev/static/js/main.4838b129.js.map",
+    "main.a3492514.css.map": "/arcodev/static/css/main.a3492514.css.map",
+    "main.2f146d71.js.map": "/arcodev/static/js/main.2f146d71.js.map",
     "488.471ad99a.chunk.js.map": "/arcodev/static/js/488.471ad99a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ec5cb23.css",
-    "static/js/main.4838b129.js"
+    "static/css/main.a3492514.css",
+    "static/js/main.2f146d71.js"
   ]
 }
