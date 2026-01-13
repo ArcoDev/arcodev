@@ -8,7 +8,9 @@
     @include movil {
         padding: 8rem 0 0 0;
     }
-
+    @include tablet {
+        padding: 5rem 0 0 0;
+    }
     .about-content {
         display: flex;
         justify-content: center;
@@ -19,6 +21,9 @@
             flex-direction: column;
         }
 
+        @include tablet {
+            flex-direction: column;
+        }
         .about-image {
             width: 45%;
             position: relative;
@@ -29,6 +34,12 @@
             @include movil {
                 width: 100%;
                 order: 1;
+            }
+
+            @include tablet {
+                width: 90%;
+                padding-left: 5rem;
+                justify-content: start;
             }
 
             /* los pictures tienen un comportamiento particular en relación con el modelo de flexbox. */
@@ -70,6 +81,9 @@
                     margin: auto;
                     filter: drop-shadow(0 0 5px $red);
                 }
+                @include tablet {
+                    right: 6rem;
+                }
             }
         }
 
@@ -90,6 +104,11 @@
                 height: inherit;
                 order: 2;
                 padding: 2rem;
+            }
+
+            @include tablet {
+                width: 100%;
+                padding: 3rem;
             }
 
             h3 {
