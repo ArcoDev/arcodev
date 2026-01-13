@@ -6,9 +6,14 @@ const CardProjects = ({ imgjpg, imgwebp, title, description, repository, webSite
     <article className="card-project">
       <header className="image-container">
         <picture>
-          <source srcSet={imgwebp} type="image/webp" />
-          <source srcSet={imgjpg} type="image/jpg" />
-          <img src={imgwebp} alt={`Captura del proyecto ${title}`} />
+          {imgwebp && <source srcSet={imgwebp} type="image/webp" />}
+          {imgjpg && (
+            <img
+              src={imgjpg}
+              alt={`project-${title}`}
+              loading="lazy"
+            />
+          )}
         </picture>
       </header>
       <section className="project-details">

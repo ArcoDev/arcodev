@@ -6,7 +6,6 @@ import imgPhp from "../../images/php.svg";
 import imgBotstrap from "../../images/bootstrap.svg";
 import imgGit from "../../images/github.svg";
 import imgMysql from "../../images/mysql.svg";
-import imgReact from "../../images/react.svg";
 import imgDevExtreme from "../../images/devExtreme.svg";
 //Imagenes webp
 import lipwebp from '../../images/lip.webp';
@@ -18,6 +17,7 @@ import rocklagwebp from '../../images/rocklag.webp';
 import transmontesWebp from '../../images/transmontes.webp'
 import jumacoWebp from '../../images/jumaco.webp'
 import luigiWebp from '../../images/lugiBosca.webp';
+import sisComedorWebp from '../../images/sistema-comedor.webp';
 //Imagenes jpg
 import lipjpg from '../../images/lip.jpg';
 import alchilejpg from '../../images/alchile.jpg';
@@ -28,6 +28,9 @@ import rocklagjpg from '../../images/rocklag.jpg';
 import transmontes from '../../images/transmontes.png'
 import jumaco from '../../images/jumaco.png'
 import luigi from '../../images/lugiBosca.png';
+import sisComedorPng from '../../images/sistema-comedor.png';
+import nodeJs from '../../images/nodejs.png';
+
 
 export const projects = [{
         id: 1,
@@ -247,7 +250,7 @@ export const projects = [{
         img_jpg: jumaco,
         img_webp: jumacoWebp,
         title: "Jumaco",
-        description: "Erp para las operaciones y control de corte de telas y costura, en el cual se pueden administrar las operaciones de la empresa, como la administración de unidades, rutas, clientes y proveedores.",
+        description: "ERP para una empresa textil especializada en la fabricación de uniformes empresariales, enfocado en la gestión y control de los procesos de corte de telas y costura. El sistema permite administrar de forma integral las operaciones de la empresa, optimizando la producción, la logística y el control operativo.",
         repository: "",
         webSite: "",
         category: 'erp',
@@ -295,8 +298,8 @@ export const projects = [{
         id: 9,
         img_jpg: luigi,
         img_webp: luigiWebp,
-        title: "Black Wolf",
-        description: "Paginna web para venta de vinos y productos gourmet.",
+        title: "Luigi Bosca",
+        description: "Página web para la venta de vinos y productos gourmet, con un diseño atractivo y funcional que permite mostrar el catálogo de productos, gestionar pedidos y brindar una experiencia de compra elegante y fácil para el usuario.",
         repository: "#",
         webSite: "",
         category: 'ecommerce',
@@ -324,6 +327,46 @@ export const projects = [{
                 img: imgPhp,
                 text: 'sass'
             }
+        ]
+    },
+    {
+        id: 9,
+        img_jpg: sisComedorPng,
+        img_webp: sisComedorWebp,
+        title: "Comedor G3T",
+        description: "Sistema de comedor para empleados del área, que permite el control y registro de consumos individuales, así como la impresión de tickets por cada consumo realizado. Facilita la administración, seguimiento y transparencia del uso del servicio de comedor.",
+        repository: "#",
+        webSite: "",
+        category: 'erp',
+        links: false,
+        technologies: [{
+                id: 1,
+                img: imgJs,
+                text: 'javascript'
+            },
+            {
+                id: 2,
+                img: nodeJs,
+                text: 'node js'
+            },
+            {
+                id: 3,
+                img: imgCss,
+                text: 'css'
+            }, {
+                id: 4,
+                img: imgSass,
+                text: 'sass'
+            }, {
+                id: 5,
+                img: imgPhp,
+                text: 'sass'
+            },
+            {
+                id: 6,
+                img: imgHtml,
+                text: 'html'
+            },
         ]
     },
 ];

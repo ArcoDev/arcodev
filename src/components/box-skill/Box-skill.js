@@ -1,7 +1,7 @@
 const BoxSkill = ({img, text, className, altText}) => {
   return (
     <div className={className}>
-      <img src={img} alt={altText} />
+      <img src={img} alt={altText} loading="lazy" />
       <p>{text}</p>
     </div>
   );
