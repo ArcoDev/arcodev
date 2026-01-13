@@ -108,12 +108,13 @@
     gap: 3rem;
     margin: 0 auto;
     margin-bottom: 5rem;
-    padding: 3rem 0;
+    padding: 3rem 3rem 3rem 8rem;
 
     @include movil {
         width: 100%;
         align-items: center;
         flex-direction: column;
+        padding: 3rem 0;
     }
 
     .card-project {
